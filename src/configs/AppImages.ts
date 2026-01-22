@@ -1,0 +1,25 @@
+const AppImages = {
+  bg: require("./../../assets/images/png/Blur.png"),
+  logo: require("./../../assets/images/app/logo.png"),
+  logo64: require("./../../assets/images/app/logo64.png"),
+  facebook: require("./../../assets/images/app/facebook.png"),
+  google: require("./../../assets/images/app/google.png"),
+  imageError: require("./../../assets/images/png/image_error.png"),
+  imageLoading: require("./../../assets/images/png/image_loading.png"),
+  avatar: require("./../../assets/images/png/avatar.png"),
+  visa: require("./../../assets/images/app/visa.png"),
+  mastercard: require("./../../assets/images/app/mastercard.png"),
+  paystack: require("./../../assets/images/app/paystack.png"),
+  stripe: require("./../../assets/images/app/stripe.png"),
+  payment: require("./../../assets/images/app/payment.png"),
+  runAlt2: require("./../../assets/images/png/run_alt.png"),
+  runAlt: require("./../../assets/images/png/runAlt.png"),
+  shareAlt: require("./../../assets/images/png/share_alt.png"),
+  // Apps
+  appleHealth: require("./../../assets/images/png/apple_health.png"),
+  fitbit: require("./../../assets/images/png/fitbit.png"),
+  googleFit: require("./../../assets/images/png/google_fit.png"),
+  samsungHealth: require("./../../assets/images/png/samsung_health.png"),
+  strava: require("./../../assets/images/png/strava.png"),
+};
+export default AppImages;

@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "My Racetime",
+    "slug": "my_racetime",
+    "scheme": "myracetime",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/app/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/images/app/icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "bundleIdentifier": "com.dootech.my-racetime.app"
+    },
+    "android": {
+      "package": "com.dootech.my_racetime.app",
+      "splash": {
+        "image": "./assets/images/app/icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/app/logo.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The MyRaceTime accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow My Racetime to save images to your photo library.",
+          "savePhotosPermission": "Allow My Racetime to save images to your photo library.",
+          "granularPermissions": ["photo"]
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1fe96c03-f0ec-4ba3-b768-4dd838799e56"
+      }
+    }
+  }
+}

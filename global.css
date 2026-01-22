@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-title {
+        font-size: 32px;
+        line-height: 130%;
+        font-weight: 700;
+    }
+}
+
+a,
+.link {
+    @apply text-primary-500;
+}
+
+.text-neutral {
+    color: #C8D1E1 !important;
+}
+
+.text-grey-700 {
+    color: #414651 !important;
+}
+
+.text-grey-600 {
+    color: #535862 !important;
+}
+
+.text-grey {
+    color: #6C7278 !important;
+}
